@@ -1,0 +1,407 @@
+@charset "utf-8"
+@import url(http://fonts.googleapis.com/css?family=Roboto&display=swaps);
+/*TOPボタン*/
+#pageTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+ 
+#pageTop i {
+  padding-top: 6px;
+}
+ 
+#pageTop a {
+  display: block;
+  z-index: 900;
+  padding: 8px 0 0 8px;
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: orange;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+ 
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    margin:0;
+    background-color:#fff0f5;
+    a:visited { color: #000000;}
+}
+/*スマホ*/
+/*ヘッダー*/
+header{
+    width:100%;
+    height:100px;
+    background-color:crimson;
+    font-family: 'Roboto', sans-serif;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo-image{
+    display:inline-block;
+    padding-left: 100px;
+    padding-top:30px;
+    border-radius: 50%;
+    transition: all 0.6s ease 0s;
+}
+.logo-image:hover{
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+/*ヘッダーリスト*/
+nav{
+    color: #ffffff;
+    padding-right:100px;
+    margin-top: -50px;
+}
+header ul{
+    list-style-type: none;
+    text-align: right;
+    padding:0;
+}
+header li{
+    display: inline;
+    padding-left: 10px;
+}
+/*セクション*/
+#relative{
+    position:relative;
+    background-image:url(img/background-image.jpg);
+    background-size: cover;
+    height: 689px;
+}
+.absolute{  
+    position: absolute;
+	transition: 2s;
+  -webkit-transition: 2s;
+    width:200px;
+    height: auto;
+    left:100px;
+    bottom:20px;
+}
+.absolute:hover{
+    transform: translateX(400px);
+}
+/*メイン*/
+main{
+    color:#ffffff;
+    width: 100%;
+    height:800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.main-text{
+    padding: 40px;
+}
+main h2{
+    color:crimson;
+    font-size: 30px;
+    font-family:Osaka-mono;
+}
+main p{
+    padding:10px;
+    color: #000000;
+    margin:40px;
+    line-height: 50px;
+}
+main img{
+    width:500px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    padding:30px;
+}
+main a{
+    padding:10px 80px;
+    border-radius: 15px;
+    background-color:indianred;
+    font-family: Osaka-mono;
+    color:#fff;
+    text-decoration: none;
+    box-shadow: 0 7px #000;
+}
+main a:active{
+    box-shadow:none;
+}
+main a:active{
+    position: relative;
+    top:7px;
+}
+#contents li{
+    margin-bottom: 60px;
+}
+/*info*/
+info{
+    padding-top: 30px;
+	width:100%;
+	height:800px;
+	text-align:center;
+}
+info ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    padding-left: 0;
+}
+info li{
+    padding-left:0;
+    padding:20px;
+    border-radius: 50%;
+    transition: all 0.6s ease 0s;
+}
+info li:hover{
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+info h3{
+    width:100%;
+    padding-top:100px;
+    display:inline-block;
+    justify-content: center;
+    color:crimson;
+    font-size:30px;
+    font-family:'Osaka-mono','Hiragino Kaku Gothic Pro','sans-serif';
+}
+/*フッター*/
+footer{
+    width:100%;
+    height: 100px;
+    background-color: crimson;
+    margin-left: auto;
+    margin-right: auto;
+    clear:both;
+    }
+small{
+    width:1000px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    color:#fff;
+    text-align: center;
+    padding: 40px;
+}
+/*コンタクト*/
+.contact-title{
+    margin:0;
+    padding-top:50px;
+    padding-bottom:30px;
+    text-align: center;
+    color:crimson;
+}
+.contact-subtitle{
+    text-align: center;
+}
+.contact-body{
+    background-color:lightpink;
+}
+.contact-box{
+    padding-left:20px;
+}
+.contact{
+    margin-left: auto;
+    margin-right:auto;
+    padding:30px;
+    font-family:sans-serif,serif;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 20px;
+    width:600px;
+    margin-bottom:100px;
+}
+.contact span{
+    font-size:12px;
+    color:red;
+    padding-left: 20px;
+}
+.contact p{
+    font-family:"ヒラギノ丸ゴ ProN";
+}
+input{
+    width:300px;
+}
+textarea{
+    width:300px;
+}
+.button-center{
+    text-align: center;
+    padding-top:40px;
+}
+button.button-2{
+    font-size:1.4em;
+    border-radius: 10px;
+    font-weight: bold;
+    padding:8px 30px;
+    background-color:#cc572c;
+    color:#fff;
+    border-style: none;
+    width:300px;
+    
+}
+button.button-2:hover{
+    background-color:#ffa75e;
+    color: #fff;
+}
+/*ダウンロードページ*/
+
+#wallpaper-banner{
+    background-image:url(img/wallpaper-banner.png);
+    text-align: center;
+    width:1200px;
+    height:500px;
+    margin-top:40px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.downlord{
+	width:1200px;
+    height:700px;
+    margin: 0;
+    padding:0;
+    text-align:center;
+}
+.downlord img{
+    margin-top:40px;
+    width:90px;
+    height:140px;
+}
+.image-text{
+    color:#fff;
+    margin-top:20px;
+    font-size:10px;
+    padding:10px 10px;
+    border-radius: 10px;
+    background-color:indianred;
+    font-family: Osaka-mono;
+    text-decoration: none;
+}
+.image-text:hovar{
+    color:#fff;
+    background-color:pink;
+}
+span{
+    font-size:15px;
+}
+.downlord a{
+    text-decoration: none;
+}
+.downlord p{
+    padding-top:10px;
+}
+.downlord h2{
+    color:#fff;
+    padding:20px;
+    font-family:Osaka-mono;
+    background-color: indianred; 
+    padding: 0.5em;
+    border-radius: 0.5em;
+    width:300px;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.wallpaper-group{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.wallpaper{
+    padding: 20px;
+}
+.pic{
+    width:200px;
+    height:auto;
+}
+/*etc page*/
+#character-main {
+    color:#000;
+    margin-top: 30px;
+    width: 100%;
+    height:1800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#character-main h2{
+    color:#fff;
+    padding:20px;
+    font-family:Osaka-mono;
+    background-color: indianred; 
+    padding: 0.5em;
+    border-radius: 0.5em;
+    width:300px;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#character-main h3{
+    color:orangered;
+    font-size:30px;
+}
+#character-main img{
+    display: inline-block;
+}
+.momo2-img{
+    width:200px;
+    padding-top:50px;
+}
+.rai-img{
+    width:130px;
+    margin-top:50px;
+}
+.box2 {
+    text-align: center;
+    padding: 1em 2em;
+    margin: 2em auto;
+    width:300px;
+    font-weight: bold;
+    color: #000;
+    background: #FFF;
+    border: solid 3px #dc143c;
+    border-radius: 10px;
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
+/*news*/
+.newspage img{
+    width:auto;
+    height:700px;
+    margin-top:600px;
+    background-repeat: no-repeat;
+    transform: rotate( 45deg );/*回転*/
+}
+.newstext{
+      
+}
+
+/*illust*/
+.illust{
+    padding-top:40px;
+    width:800px;
+    height:2000px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+.illust img{
+    padding-left:10px;
+    padding-top:10px;
+    text-align: center;
+}
