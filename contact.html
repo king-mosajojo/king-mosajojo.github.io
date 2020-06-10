@@ -1,0 +1,57 @@
+<!DOCTIPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>しばいぬももこ</title>
+<meta name="description" content="ももこはグンマーに住む柴イヌです">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/oldb.ico">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="contener">
+    <header>
+        <a href="index.html"><div class="logo-image"><img width="200" heigh="45" src="img/logo.png"></div></a>
+        <div class="list">
+<nav>
+<ul>
+    <li class="list-padding"><a href="https://store.line.me/stickershop/product/1240933/ja">スタンプ</a></li>
+    <li class="list-padding"><a href="etc.html">キャラクター</a></li>
+    <li class="list-padding"><a href="download.html">壁紙</a></li>
+    <li class="list-padding"><a href="contact.html">お問い合わせ</a></li>
+</ul></nav></div>
+    </header>
+    <div class="contact-body">
+    <h2 class="contact-title">お問い合わせ</h2>
+    <div class="contact">
+<div>
+    <form action="confirm.php" method="post" name="form" onsubmit="return validate()">
+        <div class="contact-subtitle"><p>お問い合わせ内容をご入力の上、送信ボタンをクリックしてください。</p></div>
+    <div class="contact-box">
+        <div>
+            <div>
+                <label>お名前<span>必須</span></label><br>
+                <input type="text" name="name" placeholder="名前を入力" value="">
+            </div>
+                <label>メールアドレス<span>必須</span></label><br>
+                <input type="text" name="email" placeholder="mail@example.com" value="">
+            </div>
+            <div>
+                <label>お問い合わせ項目<span>必須</span></label><br>
+                <select name="item">
+                    <option value="">お問い合わせ項目を選択してください</option>
+                    <option value="ご質問">ご質問</option>
+                    <option value="お問い合わせ">お問い合わせ</option>
+                </select>
+            </div>
+            <div>
+                <label>内容<span>必須</span></label><br>
+                <textarea name="content" rows="5" placeholder="内容を入力"></textarea>
+            </div>
+        <div class="button-center"><button class="button-2" type="submit">送信</button></div></div>
+        </form></div></div>
+    <footer><small>&copy; OLDB ,all rights reseved.</small>
+        </footer></div></div></body>
+</html>
